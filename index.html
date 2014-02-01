@@ -1,0 +1,15 @@
+---
+layout: index
+---
+<div class="pl">
+{% for post in site.posts %}
+  <div class="po">
+    <a class="nl" href="{{ post.url }}">
+      <small class="as">{{ post.date | date_to_long_string }}</small>
+      <h1>{{ post.title }}</h1>
+    </a>
+
+    {{ post.excerpt }}
+  </div>
+{% endfor %}
+</div>

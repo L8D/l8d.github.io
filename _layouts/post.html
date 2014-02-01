@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+  </head>
+
+  <body>
+    <div class="left">
+      <a class="ml" href="/">
+        <img class="up" src="/img/me.png"/>
+        <h1>{{ site.title }}</h1>
+      </a>
+    </div>
+
+    <div class="right"><div> <!-- extra div needed for weird spacing bug -->
+      <small class="as">{{ page.date | date_to_long_string }}</small>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </div></div>
+  </body>
+</html>

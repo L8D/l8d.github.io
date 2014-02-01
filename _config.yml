@@ -1,0 +1,18 @@
+title: L8D
+author: Tenor Biel
+description: The miniature and full blogs of L8D
+url: http://tysens.us
+permalink: none
+markdown: redcarpet
+pygments: false
+
+redcarpet:
+  extensions:
+    - tables
+    - strikethrough
+    - underline
+    - highlight
+    - footnotes
+    - superscript
+    - autolink
+    - fenced_code_blocks
