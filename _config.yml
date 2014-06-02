@@ -5,6 +5,7 @@ url: http://l8d.github.io
 permalink: none
 markdown: redcarpet
 pygments: false
+exclude: [vendor]
 
 redcarpet:
   extensions:
