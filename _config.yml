@@ -17,3 +17,4 @@ redcarpet:
     - superscript
     - autolink
     - fenced_code_blocks
+    - smart
