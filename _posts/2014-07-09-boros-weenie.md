@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Standrad Boros Weenie"
 date: 2014-07-09 4:30 PM
