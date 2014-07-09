@@ -4,6 +4,8 @@ title: "Standrad Boros Weenie"
 date: 2014-07-09 4:30 PM
 ---
 
+A dech tech for my twist on a Standard Weenie deck.
+
 Recently, the only deck I enjoyed playing in Standard was a White Weenie
 list which ran almost all the available and efficient one-drops in
 Standard, in addition to a few disruptive 2-drops like Azorius Arrestor
