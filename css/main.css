@@ -50,6 +50,14 @@ img.up {
   text-decoration: none;
 }
 
+.ml h1 {
+  margin-bottom: 5px;
+}
+
+.ml small {
+  margin: 0;
+}
+
 .as {
   float: right;
 }
