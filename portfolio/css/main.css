@@ -114,6 +114,10 @@ a:active,a:focus {
 
   ul.blocks li {
     padding: 20px 10px;
-  } 
+  }
+
+  .hero h1 {
+    padding: 0;
+  }
 }
 
