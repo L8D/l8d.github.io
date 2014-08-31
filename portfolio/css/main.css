@@ -120,7 +120,7 @@ a:active,a:focus {
     padding: 0;
   }
 
-  .hero li {
+  .hero ul li {
     font-size: 16px;
   }
 }
