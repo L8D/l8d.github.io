@@ -119,5 +119,9 @@ a:active,a:focus {
   .hero h1 {
     padding: 0;
   }
+
+  .hero li {
+    font-size: 1em;
+  }
 }
 
