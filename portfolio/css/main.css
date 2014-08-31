@@ -23,22 +23,6 @@ body {
   margin-left: 5px
 }
 
-@media screen and (max-width: 500px) {
-  #me {
-    float:none;
-    display: block;
-    margin: 0 auto
-  }
-
-  section {
-    padding:0 10px
-  }
-
-  ul.blocks li {
-    padding: 20px 10px;
-  } 
-}
-
 h1,h2,h3,h4,h5,h6 {
   line-height: 1em;
   font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -116,3 +100,20 @@ a:active,a:focus {
   position: relative;
   top: 1px
 }
+
+@media screen and (max-width: 500px) {
+  #me {
+    float:none;
+    display: block;
+    margin: 0 auto
+  }
+
+  section {
+    padding:0 10px
+  }
+
+  ul.blocks li {
+    padding: 20px 10px;
+  } 
+}
+
