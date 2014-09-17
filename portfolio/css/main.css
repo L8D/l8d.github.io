@@ -1,127 +1,143 @@
 .monts {
-  font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform: uppercase
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
 }
 
 html {
-  font-family: 'Lato',"Open Sans",Helvetica,Arial,sans-serif;
+  font-family: 'Lato', "Open Sans", Helvetica, Arial, sans-serif;
   background: #fff;
-  color: #333
+  color: #333;
 }
 
 body {
   max-width: 500px;
   margin: 0 auto;
-  line-height: 1.5em
+  line-height: 1.5em;
 }
 
-#me {
-  float: right;
-  height: 150px;
-  width: 150px;
-  border-radius: 3px;
-  margin-left: 5px
+h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
   line-height: 1em;
-  font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Montserrat',"Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 3px solid;
-  margin-bottom: 0
+  margin: 0;
 }
 
-.hero {
+#hero {
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
-.hero h1 {
+#hero h1 {
   margin: 0;
   padding-top: 50px;
-  font-size: 4.9em
+  font-size: 4.9em;
+  border-bottom: 3px solid;
 }
 
-.hero ul {
+#hero ul {
   list-style: none;
+  margin: 0;
   margin-top: 5px;
   text-align: center;
-  padding: 0
+  padding: 0;
 }
 
-.hero ul li {
+#hero ul li {
   display: inline;
   font-size: 20px;
   padding-right: 9px;
   border-right: 2px solid;
-  margin-right: 5px
+  margin-right: 5px;
 }
 
-.hero ul li:last-child {
-  border-right: 0
+#hero ul li:last-child {
+  border-right: 0;
 }
 
-.hero ul li a {
-  color: inherit
+#hero ul li a {
+  color: inherit;
 }
 
-ul.blocks {
-  margin: 0;
+h1.block-head {
+  margin-top: 40px;
+}
+
+#festo {
+  list-style: none;
+  padding: 0;
+  font-family: Palatino, Georgia, "Times New Roman", Times, serif;
+}
+
+#festo li h2 {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#festo li p, #skills li p {
+  text-align: justify;
+}
+
+#festo li.the-line p {
+  text-align: center;
+  font-style: italic;
+}
+
+#skills {
+  border-top: 3px solid #000;
+  margin-top: 0;
   list-style: none;
   padding: 0;
 }
 
-ul.blocks li {
-  padding: 20px 25px 20px 25px;
+#skills li {
+  padding: 20px 25px;
 }
 
-ul.blocks li h1 {
+#skills li h1 {
   font-size: 2em;
   border: 0;
-  margin-top: 0
+  margin-top: 0;
 }
 
-ul.blocks li p {
-  margin-top: 20px
+#skills li p {
+  margin-top: 20px;
 }
 
 a {
   color: #09f;
-  text-decoration: none
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
-a:active,a:focus {
+a:active, a:focus {
   position: relative;
-  top: 1px
+  top: 1px;
 }
 
 @media screen and (max-width: 500px) {
-  #me {
-    float:none;
-    display: block;
-    margin: 0 auto
+  section, #festo {
+    padding: 0 10px;
   }
 
-  section {
-    padding:0 10px
-  }
-
-  ul.blocks li {
+  #skills li {
     padding: 20px 10px;
   }
 
-  .hero h1 {
+  #hero h1 {
     padding: 0;
   }
 
-  .hero ul li {
+  #hero ul li {
     font-size: 16px;
   }
 }
-

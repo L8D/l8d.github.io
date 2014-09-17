@@ -1,90 +1,177 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Tenor Biel &mdash; Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tenor Biel &mdash; Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 
-        <!-- Montserrat and Lato -->
-        <link href="http://fonts.googleapis.com/css?family=Montserrat|Lato:400italic,400,700" rel="stylesheet" type="text/css">
+    <!-- Normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <div class="hero">
-            <h1>Tenor Biel</h1>
-            <ul>
-                <li><a href="https://github.com/L8D">GitHub</a></li>
-                <li><a href="mailto:tenorbiel@gmail.com">Email</a></li>
-                <li><a style="color:grey" href="https://www.odesk.com/users/~0152f9dbf052339acb">oDesk</a></li>
-                <li><a href="/">Blog</a></li>
-            </ul>
-        </div>
+    <!-- Montserrat and Lato -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat|Lato:400italic,400,700">
 
-        <section>
-            <img alt="me" id="me" src="img/me.jpg">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id="hero">
+      <h1>Tenor Biel</h1>
+      <ul>
+        <li><a href="https://github.com/L8D">GitHub</a></li>
+        <li><a href="mailto:tenorbiel@gmail.com">Email</a></li>
+        <li><a style="color:grey" href="https://www.odesk.com/users/~0152f9dbf052339acb">oDesk</a></li>
+        <li><a href="/">Blog</a></li>
+      </ul>
+    </div>
 
-            <p class="punchline">Hello, I&rsquo;m a JavaScript developer from Austin, TX.</p>
+    <section>
+      <p>
+        Hello, I&rsquo;m a full-stack JavaScript developer that writes software
+        to solve every problem you have from the start ranging from performance
+        to SEO to isomorphism to scalability.
+      </p>
 
-            <p>
-                I specialize in minimizing performance and dependency overhead
-                as much as possible. I can get everything served for a client
-                side web app (From CSS frameworks to JavaScript libraries) into
-                less than 100kb, and have a usable interface ready within 100ms.
-            </p>
+      <p>
+        I achieve this by following rigorous and disciplined coding practices
+        similar to <a href="http://looprecur.com">Loop Recur</a>&rsquo;s
+        approach to efficient software development. My go-to technologies are
+        <a href="//backbonejs.org">Backbone.js</a>,
+        <a href="//expressjs.com">Express</a> and
+        <a href="//purecss.io">Pure</a>.
+      </p>
+    </section>
 
-            <p>
-                I strive to write clear, concise, readable and especially
-                maintainable code at all times. I also take advantage of the
-                cheap module system in Node.js to comply with the rule of three
-                and separate business logic from the framework and APIs. I
-                prefer to use low-footprint and extensible frameworks like
-                <a href="//backbonejs.org">Backbone.js</a>,
-                <a href="//expressjs.com">Express</a> and
-                <a href="//purecss.io">Pure</a>.
-            </p>
-        </section>
+    <h1 class="block-head">Skills</h1>
+    <ul id="skills" style="color: #ecf0f1">
+      <li style="background: #2ecc71">
+        <h1>Node</h1>
 
-        <h1>Skills</h1>
-        <ul class="blocks" style="color: #ecf0f1">
-            <li style="background: #2ecc71">
-                <h1>Node</h1>
-                <p>
-                    Using amazing frameworks like express and Sails.js, the
-                    majority of my JavaScript experience is in Node.js web apps
-                    or APIs.
-                </p>
-            </li>
+        <p>
+          Being a full-stack developer, my defacto platform for REST APIs,
+          build systems or general network programming is Node.js. I&rsquo;ve
+          also contributed several open source projects specifically for
+          Node.js on
+          <a style="color: #9b59b6" href="https://github.com/L8D">GitHub</a>.
+        </p>
+      </li>
 
-            <li style="background: #f1c40f">
-                <h1>HTML5</h1>
-                <p>
-                    Since knowing how to create web interfaces through HTML and
-                    CSS is mandatory in field of web development, I am very
-                    familier with HTML5 and CSS3 development. This portfolio is
-                    written by me as one of the examples of my work.
-                </p>
-            </li>
+      <li style="background: #3498db">
+        <h1>Backbone</h1>
 
-            <li style="background: #3498db">
-                <h1>Backbone</h1>
-                <p>
-                    Backbone.js combined with Underscore.js is my go-to choice
-                    for API requests, templates, and all the other needs of a
-                    Model-View-Whatever framework.
-                </p>
-            </li>
+        <p>
+          Backbone is one of my favorite JavaScript application frameworks due
+          to its lightweight functionality and lack of opinions. I won&rsquo;t
+          use it everywhere, but I know it by heart and I am comfortable
+          working with it.
+        </p>
+      </li>
 
-            <li style="background: #e74c3c">
-                <h1>Ruby</h1>
-                <p>
-                    I am a former ruby developer with a focus on web apps
-                    using frameworks like Ruby on Rails and Sinatra.
-                </p>
-            </li>
-        </ul>
-    </body>
+      <li style="background: #8e44ad">
+        <h1>React</h1>
+
+        <p>
+          React is one of, if not the best view engine on the market currently.
+          It&rsquo;s isomorphic, functional, unopionated, modular and has
+          incredible performance for what it is. If I&rsquo;m ever needing to
+          build a complex UI, I will always consider React first.
+        </p>
+      </li>
+
+      <li style="background: #f1c40f">
+        <h1>Angular</h1>
+
+        <p>
+          The catalyst of my manifesto, AngularJS is a framework that I personally despise. However, I have worked with it and know how to use it.
+        </p>
+      </li>
+
+      <li style="background: #e74c3c">
+        <h1>RxJS</h1>
+
+        <p>
+          RxJS (Reactive Extensions) is a set of libraries to support
+          functional reactive programming in JavaScript. I prefer to use
+          FRP libraries when I need to build scalable real-time apps that work
+          with several event systems and sources.
+        </p>
+      </li>
+    </ul>
+
+    <h1 id="manifesto" class="block-head">Manifesto</h1>
+    <ul id="festo">
+      <li class="the-line">
+        <p>
+          &ldquo;Your product shouldn&rsquo;t be limited by the technologies
+          you use.&rdquo;
+        </p>
+      </li>
+
+      <li>
+        <h2>The end user comes first</h2>
+
+        <p>
+          When making decisions over the architectures and technologies you
+          use, always take into consideration how those will impact the end
+          user. You prioritize the user&rsquo;s experience over that of the
+          developer. That sacrifice, and how you accommodate its implications,
+          is what makes you the kind of developer you are.
+        </p>
+      </li>
+
+      <li>
+        <h2>Only use what you need</h2>
+
+        <p>
+          As part of your philosophy, you stand against the mainstream use of
+          large, monolithic frameworks and you instead stand in favor of the
+          modular application architecture.  This architecture gives you
+          freedom in choosing what technologies you need. By design, your stack
+          can now scale and compose with other technologies or
+          architectures.
+        </p>
+      </li>
+
+      <li>
+        <h2>Correctness over ease of use</h2>
+
+        <p>
+          Rather than use technologies that are designed for the experience of
+          the developer, you use libraries and frameworks that let you focus on
+          writing correct, performant and scalable software. You write out
+          every loop by hand. You focus on structuring your code for
+          maintainability from the start. You adhere to a strict code-style
+          that enforces readability and verbosity to accommodate for the lack
+          of &lsquo;shorthand&rsquo; you can write.
+        </p>
+      </li>
+
+      <li>
+        <h2>Seperate your concerns</h2>
+
+        <p>
+          You do not depend on a single architecture or framework to decide how
+          you separate your concerns. You make decisions on the needs of your
+          product, not the needs of your technologies. You can choose how to
+          structure your application because you use a modular architecture.
+          You trust yourself and the developers in your team to make these
+          decisions on a smaller scale.
+        </p>
+      </li>
+
+      <li>
+        <h2>Be aware of production</h2>
+
+        <p>
+          You are not a careless developer who does not worry about managing
+          their production systems. You understand and control your production
+          process. You make optimizations for your production environments. You
+          structure your code to improve functionality in production. You know
+          how to scale your production systems.
+        </p>
+      </li>
+    </ul>
+  </body>
 </html>
