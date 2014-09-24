@@ -4,7 +4,7 @@ description: The miniature and full blogs of L8D
 url: http://l8d.github.io
 permalink: none
 markdown: redcarpet
-pygments: false
+pygments: true
 exclude: [vendor]
 
 redcarpet:
