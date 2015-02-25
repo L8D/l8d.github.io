@@ -7,10 +7,10 @@ body {
   max-width: 32em;
   margin: 0 auto;
   padding: 0 10px;
-  line-height: 1.5em;
 }
 
 p {
+  line-height: 1.5em;
   text-align: justify;
 }
 
@@ -25,4 +25,8 @@ a:hover {
 
 h1 a {
   color: inherit;
+}
+
+img {
+  max-width: 100%;
 }
