@@ -4,9 +4,10 @@ html {
 }
 
 body {
-  max-width: 32em;
+  max-width: 34em;
   margin: 0 auto;
   padding: 0 10px;
+  padding-top: 25px;
 }
 
 p {
@@ -29,4 +30,9 @@ h1 a {
 
 img {
   max-width: 100%;
+}
+
+pre {
+  max-width: 100%;
+  overflow: scroll;
 }

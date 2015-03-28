@@ -5,7 +5,7 @@ url: http://l8d.github.io
 permalink: none
 markdown: redcarpet
 pygments: true
-cyear: 2014
+cyear: 2015
 exclude: [vendor]
 
 redcarpet:
