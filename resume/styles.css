@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+html {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 16px;
+}
+
+body {
+  max-width: 60em;
+  margin: 2em auto 0 auto;
+  padding: 0 1em;
+}
+
+body header {
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding: 0 0.5em;
+}
+
+body header h1 {
+  display: inline-block;
+}
+
+body header aside {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  right: 0.5em;
+  line-height: 2em;
+  bottom: 0;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+main {
+  margin: 1em 0.5em;
+}
+
+main section {
+  margin-bottom: 1em;
+}
+
+main section aside {
+  float: left;
+  max-width: 7em;
+  margin-right: 1em;
+}
+
+main section .content {
+  margin-left: 7.5em;
+}
+
+main section .entries {
+  margin-left: 2em;
+}
+
+.entry {
+  height: 1.5em;
+}
+
+.entry > div:first-child {
+  float: left;
+}
+
+.entry > div:last-child {
+  float: right;
+  font-style: italic;
+  text-align: right;
+}
+
+@media print {
+  html {
+    font-size: 12pt;
+  }
+}
