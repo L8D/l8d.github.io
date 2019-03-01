@@ -60,11 +60,19 @@ main section .content {
 }
 
 main section .entries {
-  margin-left: 2em;
+  margin-left: 1em;
+}
+
+.sub-entries {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 9pt;
 }
 
 .entry {
   height: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .entry > div:first-child {
@@ -79,7 +87,11 @@ main section .entries {
 
 @media print {
   html {
-    font-size: 12pt;
+    font-size: 11pt;
+  }
+
+  ul {
+    font-size: 10pt;
   }
 }
 
