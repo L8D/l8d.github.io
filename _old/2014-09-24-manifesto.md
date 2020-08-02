@@ -2,6 +2,7 @@
 title: My Manifesto
 layout: post
 date: 2014-09-24 1:18 AM
+published: false
 ---
 
 *"Your product shouldn't be limited by the technologies you use."*

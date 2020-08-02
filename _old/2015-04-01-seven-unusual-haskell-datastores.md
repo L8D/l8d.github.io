@@ -2,6 +2,7 @@
 layout: post
 title: Seven Unusual Haskell Datastores
 date: 2015-04-01 2:26 AM
+published: false
 tags:
   - satire
   - dull

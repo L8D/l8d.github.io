@@ -3,6 +3,7 @@ title: React on Both Sides
 layout: post
 date: 2014-09-27 5:00 PM
 description: A how-to on writing isomorphic React apps
+published: false
 ---
 
 React is an relatively-new view engine library from Facebook that has seen a
